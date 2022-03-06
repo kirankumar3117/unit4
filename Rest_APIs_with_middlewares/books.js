@@ -5,7 +5,7 @@
 // return data.items;
 // }
 // books();
-let book=[
+let bookl=[
     {
         HarryPotter:[
         
@@ -61,7 +61,7 @@ let book=[
         name6:"DJ Tillu"
     }
 ];
-module.exports=book;
+module.exports=bookl;
 // function books(){
 //     return book;
 // }
