@@ -1,0 +1,753 @@
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+> use test
+switched to db test
+> show collections
+movie
+use
+users
+> db.movie.find().pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379b4"),
+        "id" : 1,
+        "movie" : "Girl Walk: All Day",
+        "genre" : "Musical",
+        "email" : "gparnham0@netlog.com",
+        "password" : "h6EP4ShTk",
+        "budget" : 7047,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b5"),
+        "id" : 2,
+        "movie" : "Brothers",
+        "genre" : "Drama|Thriller|War",
+        "email" : "agrimsdike1@wordpress.org",
+        "password" : "7Xfsq56UOQI",
+        "budget" : 7884,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b6"),
+        "id" : 3,
+        "movie" : "Kahaani",
+        "genre" : "Crime|Drama|Thriller",
+        "email" : "hbamforth2@youtube.com",
+        "password" : "WTWebhZ",
+        "budget" : 2751,
+        "year" : 2014
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b7"),
+        "id" : 4,
+        "movie" : "Nothing to Declare (Rien à déclarer)",
+        "genre" : "Comedy",
+        "email" : "tmillbank3@toplist.cz",
+        "password" : "0nbJxN",
+        "budget" : 5962,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b8"),
+        "id" : 5,
+        "movie" : "Big Snit, The",
+        "genre" : "Animation|Comedy",
+        "email" : "ukidde4@ox.ac.uk",
+        "password" : "LzcQmxCQZ",
+        "budget" : 4327,
+        "year" : 2016
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b9"),
+        "id" : 6,
+        "movie" : "Dead or Alive 2: Tôbôsha",
+        "genre" : "Action|Crime|Thriller",
+        "email" : "bsang5@nationalgeographic.com",
+        "password" : "CnT7eUZ",
+        "budget" : 5127,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379ba"),
+        "id" : 7,
+        "movie" : "Earth vs. the Spider",
+        "genre" : "Horror|Sci-Fi|Thriller",
+        "email" : "fjennens6@nydailynews.com",
+        "password" : "yq1vDmPS",
+        "budget" : 6423,
+        "year" : 2012
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bb"),
+        "id" : 8,
+        "movie" : "Deadly Prey",
+        "genre" : "Action|Adventure|War",
+        "email" : "qcrauford7@reddit.com",
+        "password" : "BgGDKR7",
+        "budget" : 6236,
+        "year" : 2005
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bc"),
+        "id" : 9,
+        "movie" : "Piano in a Factory, The (Gang de qin)",
+        "genre" : "Comedy|Drama|Musical",
+        "email" : "mpepperill8@meetup.com",
+        "password" : "HS4Z55u",
+        "budget" : 3872,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bd"),
+        "id" : 10,
+        "movie" : "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix: Mission Cléopâtre)",
+        "genre" : "Adventure|Comedy|Fantasy",
+        "email" : "mbert9@kickstarter.com",
+        "password" : "rNnLkqPSUX7Z",
+        "budget" : 9193,
+        "year" : 2001
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379be"),
+        "id" : 11,
+        "movie" : "Mirror Has Two Faces, The",
+        "genre" : "Comedy|Drama|Romance",
+        "email" : "tbrewinsa@csmonitor.com",
+        "password" : "8kFvlNW1PniW",
+        "budget" : 2748,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bf"),
+        "id" : 12,
+        "movie" : "Solarbabies",
+        "genre" : "Action|Drama|Sci-Fi",
+        "email" : "hradbournb@sourceforge.net",
+        "password" : "1Q0pRV50z",
+        "budget" : 7649,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c0"),
+        "id" : 13,
+        "movie" : "At Sea",
+        "genre" : "Documentary",
+        "email" : "aobleinc@infoseek.co.jp",
+        "password" : "vuF9bXh4",
+        "budget" : 3121,
+        "year" : 2011
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c1"),
+        "id" : 14,
+        "movie" : "Saragossa Manuscript, The (Rekopis znaleziony w Saragossie)",
+        "genre" : "Adventure|Drama|Mystery",
+        "email" : "akirkupd@mozilla.com",
+        "password" : "5Qm3BhMgU",
+        "budget" : 7168,
+        "year" : 2015
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c2"),
+        "id" : 15,
+        "movie" : "Bird of Prey",
+        "genre" : "Action",
+        "email" : "epagone@home.pl",
+        "password" : "hMhoyyWQuRCm",
+        "budget" : 3921,
+        "year" : 2015
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c3"),
+        "id" : 16,
+        "movie" : "Sadist, The",
+        "genre" : "Thriller",
+        "email" : "bschuhf@loc.gov",
+        "password" : "mqlZ61Eehj",
+        "budget" : 3758,
+        "year" : 2017
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c4"),
+        "id" : 17,
+        "movie" : "Nightmare",
+        "genre" : "Horror|Mystery|Thriller",
+        "email" : "lmesserg@ifeng.com",
+        "password" : "UKYuUz7qam",
+        "budget" : 5962,
+        "year" : 2003
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c5"),
+        "id" : 18,
+        "movie" : "Hamlet",
+        "genre" : "Crime|Drama|Romance",
+        "email" : "kferrymanh@wufoo.com",
+        "password" : "a2XMmqm0nk4X",
+        "budget" : 3898,
+        "year" : 2015
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c6"),
+        "id" : 19,
+        "movie" : "Madonna of the Seven Moons",
+        "genre" : "Drama|Mystery",
+        "email" : "hpreisti@blinklist.com",
+        "password" : "K5Eb4QufQ",
+        "budget" : 5324,
+        "year" : 2014
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c7"),
+        "id" : 20,
+        "movie" : "Hurricane, The",
+        "genre" : "Action|Drama|Romance",
+        "email" : "gdukerj@paginegialle.it",
+        "password" : "IkSSwKD",
+        "budget" : 8917,
+        "year" : 2004
+}
+> db.movie.find({"movie":"Hamlet"}).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379c5"),
+        "id" : 18,
+        "movie" : "Hamlet",
+        "genre" : "Crime|Drama|Romance",
+        "email" : "kferrymanh@wufoo.com",
+        "password" : "a2XMmqm0nk4X",
+        "budget" : 3898,
+        "year" : 2015
+}
+> db.movie.find({"movie":{$not:{$eq:"Hamlet"}}}).limit(10).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379b4"),
+        "id" : 1,
+        "movie" : "Girl Walk: All Day",
+        "genre" : "Musical",
+        "email" : "gparnham0@netlog.com",
+        "password" : "h6EP4ShTk",
+        "budget" : 7047,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b5"),
+        "id" : 2,
+        "movie" : "Brothers",
+        "genre" : "Drama|Thriller|War",
+        "email" : "agrimsdike1@wordpress.org",
+        "password" : "7Xfsq56UOQI",
+        "budget" : 7884,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b6"),
+        "id" : 3,
+        "movie" : "Kahaani",
+        "genre" : "Crime|Drama|Thriller",
+        "email" : "hbamforth2@youtube.com",
+        "password" : "WTWebhZ",
+        "budget" : 2751,
+        "year" : 2014
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b7"),
+        "id" : 4,
+        "movie" : "Nothing to Declare (Rien à déclarer)",
+        "genre" : "Comedy",
+        "email" : "tmillbank3@toplist.cz",
+        "password" : "0nbJxN",
+        "budget" : 5962,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b8"),
+        "id" : 5,
+        "movie" : "Big Snit, The",
+        "genre" : "Animation|Comedy",
+        "email" : "ukidde4@ox.ac.uk",
+        "password" : "LzcQmxCQZ",
+        "budget" : 4327,
+        "year" : 2016
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b9"),
+        "id" : 6,
+        "movie" : "Dead or Alive 2: Tôbôsha",
+        "genre" : "Action|Crime|Thriller",
+        "email" : "bsang5@nationalgeographic.com",
+        "password" : "CnT7eUZ",
+        "budget" : 5127,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379ba"),
+        "id" : 7,
+        "movie" : "Earth vs. the Spider",
+        "genre" : "Horror|Sci-Fi|Thriller",
+        "email" : "fjennens6@nydailynews.com",
+        "password" : "yq1vDmPS",
+        "budget" : 6423,
+        "year" : 2012
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bb"),
+        "id" : 8,
+        "movie" : "Deadly Prey",
+        "genre" : "Action|Adventure|War",
+        "email" : "qcrauford7@reddit.com",
+        "password" : "BgGDKR7",
+        "budget" : 6236,
+        "year" : 2005
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bc"),
+        "id" : 9,
+        "movie" : "Piano in a Factory, The (Gang de qin)",
+        "genre" : "Comedy|Drama|Musical",
+        "email" : "mpepperill8@meetup.com",
+        "password" : "HS4Z55u",
+        "budget" : 3872,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bd"),
+        "id" : 10,
+        "movie" : "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix: Mission Cléopâtre)",
+        "genre" : "Adventure|Comedy|Fantasy",
+        "email" : "mbert9@kickstarter.com",
+        "password" : "rNnLkqPSUX7Z",
+        "budget" : 9193,
+        "year" : 2001
+}
+> db.movie.find({"budget":{$gte:4000}}).limit(8).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379b4"),
+        "id" : 1,
+        "movie" : "Girl Walk: All Day",
+        "genre" : "Musical",
+        "email" : "gparnham0@netlog.com",
+        "password" : "h6EP4ShTk",
+        "budget" : 7047,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b5"),
+        "id" : 2,
+        "movie" : "Brothers",
+        "genre" : "Drama|Thriller|War",
+        "email" : "agrimsdike1@wordpress.org",
+        "password" : "7Xfsq56UOQI",
+        "budget" : 7884,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b7"),
+        "id" : 4,
+        "movie" : "Nothing to Declare (Rien à déclarer)",
+        "genre" : "Comedy",
+        "email" : "tmillbank3@toplist.cz",
+        "password" : "0nbJxN",
+        "budget" : 5962,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b8"),
+        "id" : 5,
+        "movie" : "Big Snit, The",
+        "genre" : "Animation|Comedy",
+        "email" : "ukidde4@ox.ac.uk",
+        "password" : "LzcQmxCQZ",
+        "budget" : 4327,
+        "year" : 2016
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b9"),
+        "id" : 6,
+        "movie" : "Dead or Alive 2: Tôbôsha",
+        "genre" : "Action|Crime|Thriller",
+        "email" : "bsang5@nationalgeographic.com",
+        "password" : "CnT7eUZ",
+        "budget" : 5127,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379ba"),
+        "id" : 7,
+        "movie" : "Earth vs. the Spider",
+        "genre" : "Horror|Sci-Fi|Thriller",
+        "email" : "fjennens6@nydailynews.com",
+        "password" : "yq1vDmPS",
+        "budget" : 6423,
+        "year" : 2012
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bb"),
+        "id" : 8,
+        "movie" : "Deadly Prey",
+        "genre" : "Action|Adventure|War",
+        "email" : "qcrauford7@reddit.com",
+        "password" : "BgGDKR7",
+        "budget" : 6236,
+        "year" : 2005
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bd"),
+        "id" : 10,
+        "movie" : "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix: Mission Cléopâtre)",
+        "genre" : "Adventure|Comedy|Fantasy",
+        "email" : "mbert9@kickstarter.com",
+        "password" : "rNnLkqPSUX7Z",
+        "budget" : 9193,
+        "year" : 2001
+}
+> db.movie.find({$and:[{"year":{$gt:2000}},{"budget":{$gt:10000}}]}).pretty()
+>> db.movie.find({$nor:[{"year":{$eq:2000}},{"budget":{$gt:10000}}]}).limit(8).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379b4"),
+        "id" : 1,
+        "movie" : "Girl Walk: All Day",
+        "genre" : "Musical",
+        "email" : "gparnham0@netlog.com",
+        "password" : "h6EP4ShTk",
+        "budget" : 7047,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b5"),
+        "id" : 2,
+        "movie" : "Brothers",
+        "genre" : "Drama|Thriller|War",
+        "email" : "agrimsdike1@wordpress.org",
+        "password" : "7Xfsq56UOQI",
+        "budget" : 7884,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b6"),
+        "id" : 3,
+        "movie" : "Kahaani",
+        "genre" : "Crime|Drama|Thriller",
+        "email" : "hbamforth2@youtube.com",
+        "password" : "WTWebhZ",
+        "budget" : 2751,
+        "year" : 2014
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b7"),
+        "id" : 4,
+        "movie" : "Nothing to Declare (Rien à déclarer)",
+        "genre" : "Comedy",
+        "email" : "tmillbank3@toplist.cz",
+        "password" : "0nbJxN",
+        "budget" : 5962,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b8"),
+        "id" : 5,
+        "movie" : "Big Snit, The",
+        "genre" : "Animation|Comedy",
+        "email" : "ukidde4@ox.ac.uk",
+        "password" : "LzcQmxCQZ",
+        "budget" : 4327,
+        "year" : 2016
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b9"),
+        "id" : 6,
+        "movie" : "Dead or Alive 2: Tôbôsha",
+        "genre" : "Action|Crime|Thriller",
+        "email" : "bsang5@nationalgeographic.com",
+        "password" : "CnT7eUZ",
+        "budget" : 5127,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379ba"),
+        "id" : 7,
+        "movie" : "Earth vs. the Spider",
+        "genre" : "Horror|Sci-Fi|Thriller",
+        "email" : "fjennens6@nydailynews.com",
+        "password" : "yq1vDmPS",
+        "budget" : 6423,
+        "year" : 2012
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bb"),
+        "id" : 8,
+        "movie" : "Deadly Prey",
+        "genre" : "Action|Adventure|War",
+        "email" : "qcrauford7@reddit.com",
+        "password" : "BgGDKR7",
+        "budget" : 6236,
+        "year" : 2005
+}
+> db.movie.find({$and:[{"year":{$gte:2000}},{"year":{$lte:2010}}]}).limit(9).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379b5"),
+        "id" : 2,
+        "movie" : "Brothers",
+        "genre" : "Drama|Thriller|War",
+        "email" : "agrimsdike1@wordpress.org",
+        "password" : "7Xfsq56UOQI",
+        "budget" : 7884,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b7"),
+        "id" : 4,
+        "movie" : "Nothing to Declare (Rien à déclarer)",
+        "genre" : "Comedy",
+        "email" : "tmillbank3@toplist.cz",
+        "password" : "0nbJxN",
+        "budget" : 5962,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bb"),
+        "id" : 8,
+        "movie" : "Deadly Prey",
+        "genre" : "Action|Adventure|War",
+        "email" : "qcrauford7@reddit.com",
+        "password" : "BgGDKR7",
+        "budget" : 6236,
+        "year" : 2005
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bd"),
+        "id" : 10,
+        "movie" : "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix: Mission Cléopâtre)",
+        "genre" : "Adventure|Comedy|Fantasy",
+        "email" : "mbert9@kickstarter.com",
+        "password" : "rNnLkqPSUX7Z",
+        "budget" : 9193,
+        "year" : 2001
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379be"),
+        "id" : 11,
+        "movie" : "Mirror Has Two Faces, The",
+        "genre" : "Comedy|Drama|Romance",
+        "email" : "tbrewinsa@csmonitor.com",
+        "password" : "8kFvlNW1PniW",
+        "budget" : 2748,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c4"),
+        "id" : 17,
+        "movie" : "Nightmare",
+        "genre" : "Horror|Mystery|Thriller",
+        "email" : "lmesserg@ifeng.com",
+        "password" : "UKYuUz7qam",
+        "budget" : 5962,
+        "year" : 2003
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c7"),
+        "id" : 20,
+        "movie" : "Hurricane, The",
+        "genre" : "Action|Drama|Romance",
+        "email" : "gdukerj@paginegialle.it",
+        "password" : "IkSSwKD",
+        "budget" : 8917,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c8"),
+        "id" : 21,
+        "movie" : "Actresses (Actrices)",
+        "genre" : "Comedy|Drama",
+        "email" : "avanarsdalek@hostgator.com",
+        "password" : "3NTlwARh",
+        "budget" : 7882,
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379cc"),
+        "id" : 25,
+        "movie" : "Santa's Pocket Watch",
+        "genre" : "(no genres listed)",
+        "email" : "sramshayo@scribd.com",
+        "password" : "UTSGZes",
+        "budget" : 9547,
+        "year" : 2005
+}
+> db.movie.updateMany({"id":{$lte:10}},{$unset:{"budget":""}})
+{ "acknowledged" : true, "matchedCount" : 10, "modifiedCount" : 10 }
+> db.movie.find({"id":{$lte:10}}).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379b4"),
+        "id" : 1,
+        "movie" : "Girl Walk: All Day",
+        "email" : "gparnham0@netlog.com",
+        "password" : "h6EP4ShTk",
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b5"),
+        "id" : 2,
+        "movie" : "Brothers",
+        "email" : "agrimsdike1@wordpress.org",
+        "password" : "7Xfsq56UOQI",
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b6"),
+        "id" : 3,
+        "movie" : "Kahaani",
+        "email" : "hbamforth2@youtube.com",
+        "password" : "WTWebhZ",
+        "year" : 2014
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b7"),
+        "id" : 4,
+        "movie" : "Nothing to Declare (Rien à déclarer)",
+        "email" : "tmillbank3@toplist.cz",
+        "password" : "0nbJxN",
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b8"),
+        "id" : 5,
+        "movie" : "Big Snit, The",
+        "email" : "ukidde4@ox.ac.uk",
+        "password" : "LzcQmxCQZ",
+        "year" : 2016
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379b9"),
+        "id" : 6,
+        "movie" : "Dead or Alive 2: Tôbôsha",
+        "email" : "bsang5@nationalgeographic.com",
+        "password" : "CnT7eUZ",
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379ba"),
+        "id" : 7,
+        "movie" : "Earth vs. the Spider",
+        "email" : "fjennens6@nydailynews.com",
+        "password" : "yq1vDmPS",
+        "year" : 2012
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bb"),
+        "id" : 8,
+        "movie" : "Deadly Prey",
+        "email" : "qcrauford7@reddit.com",
+        "password" : "BgGDKR7",
+        "year" : 2005
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bc"),
+        "id" : 9,
+        "movie" : "Piano in a Factory, The (Gang de qin)",
+        "email" : "mpepperill8@meetup.com",
+        "password" : "HS4Z55u",
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bd"),
+        "id" : 10,
+        "movie" : "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix: Mission Cléopâtre)",
+        "email" : "mbert9@kickstarter.com",
+        "password" : "rNnLkqPSUX7Z",
+        "year" : 2001
+}
+> db.movie.find().sort({"year":-1}).limit(5).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f337a64"),
+        "id" : 177,
+        "movie" : "Polytechnique",
+        "email" : "rliebmann4w@umn.edu",
+        "password" : "eZarrFeht",
+        "budget" : 6655,
+        "year" : 2022
+}
+{
+        "_id" : ObjectId("62298e050a7348363f337a49"),
+        "id" : 150,
+        "movie" : "Antonia's Line (Antonia)",
+        "email" : "flapslie45@com.com",
+        "password" : "29LLVKseF",
+        "budget" : 5324,
+        "year" : 2022
+}
+{
+        "_id" : ObjectId("62298e050a7348363f337a81"),
+        "id" : 206,
+        "movie" : "Uncle Sam",
+        "email" : "emontel5p@epa.gov",
+        "password" : "5kH0oL",
+        "budget" : 4753,
+        "year" : 2022
+}
+{
+        "_id" : ObjectId("62298e050a7348363f337a65"),
+        "id" : 178,
+        "movie" : "Battle for the Planet of the Apes",
+        "email" : "jsarsfield4x@myspace.com",
+        "password" : "9qJJrIpcZYbv",
+        "budget" : 6509,
+        "year" : 2022
+}
+{
+        "_id" : ObjectId("62298e050a7348363f337a40"),
+        "id" : 141,
+        "movie" : "Life Is Hot in Cracktown",
+        "email" : "kezzell3w@loc.gov",
+        "password" : "KJLuRLbo",
+        "budget" : 8770,
+        "year" : 2022
+}
+> db.movie.find({$and:[{"id":{$gt:10}},{"id":{$lte:15}}]}).pretty()
+{
+        "_id" : ObjectId("62298e050a7348363f3379be"),
+        "id" : 11,
+        "movie" : "Mirror Has Two Faces, The",
+        "email" : "tbrewinsa@csmonitor.com",
+        "password" : "8kFvlNW1PniW",
+        "budget" : 2748,
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379bf"),
+        "id" : 12,
+        "movie" : "Solarbabies",
+        "email" : "hradbournb@sourceforge.net",
+        "password" : "1Q0pRV50z",
+        "budget" : 7649,
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c0"),
+        "id" : 13,
+        "movie" : "At Sea",
+        "email" : "aobleinc@infoseek.co.jp",
+        "password" : "vuF9bXh4",
+        "budget" : 3121,
+        "year" : 2011
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c1"),
+        "id" : 14,
+        "movie" : "Saragossa Manuscript, The (Rekopis znaleziony w Saragossie)",
+        "email" : "akirkupd@mozilla.com",
+        "password" : "5Qm3BhMgU",
+        "budget" : 7168,
+        "year" : 2015
+}
+{
+        "_id" : ObjectId("62298e050a7348363f3379c2"),
+        "id" : 15,
+        "movie" : "Bird of Prey",
+        "email" : "epagone@home.pl",
+        "password" : "hMhoyyWQuRCm",
+        "budget" : 3921,
+        "year" : 2015
+}
