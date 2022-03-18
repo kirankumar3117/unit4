@@ -3,7 +3,7 @@ const mongoose= require("mongoose");
 const userSchema=new mongoose.Schema(
     {
         first_name:{type: String , required : true},
-        last_name:{type : String , required: true},
+        // last_name:{type : String , required: true},
         profilePic: [{ type: String, required: false }],
     },
     {
@@ -12,4 +12,4 @@ const userSchema=new mongoose.Schema(
     }
 )
 
-module.exports=mongoose.model("user",userSchema);
+module.exports=mongoose.model("myuser",userSchema);

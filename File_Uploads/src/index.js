@@ -6,6 +6,6 @@ const app=express();
 
 app.use(express.json());
 
-app.use("/user",usercontrollers)
+app.use("/myuser",usercontrollers)
 
 module.exports=app;
