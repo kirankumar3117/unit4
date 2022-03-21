@@ -1,5 +1,5 @@
 const multer=require("multer");
-
+const req = require("express/lib/request");
 
 const path=require("path")
 
@@ -11,27 +11,23 @@ const storage = multer.diskStorage({
       const uniquePrefix = Date.now() 
       callback(null, uniquePrefix+"_"+ file.originalname );
     }
-  })
+  });
   
-const fileFiller = (req, file ,callback) => {
+const fileFilter = (req, file ,callback) => {
 
   if(file.mimetype === "image/jpeg" || file.mimetype === "image/png"){
     callback(null,true);
   }
 else{
   callback(null,false);
-}
-
-
-// callback(new Error("This type of file can't be accepted"))
-
+};
 
 }
 
 const details=
     {
-      fileFilter:fileFiller,
-        storage:storage,
+      fileFilter,
+        storage,
        
         limits:{
             fileSize:1024 * 1024 * 5,
@@ -72,4 +68,4 @@ const multiple=(key)=>{
   }
 }
 
-module.exports={single,multiple};
+module.exports=({single,multiple});

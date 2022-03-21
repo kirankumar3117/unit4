@@ -4,7 +4,6 @@ const express=require("express");
 
 const router=express.Router();
 
-const path=require("path")
 
 const {single,multiple}=require("../middileware/upload")
 
@@ -48,7 +47,7 @@ router.patch("/:id/multiple",multiple("profilePic"),async(req,res)=>{
         return err.message;
     }
 });
-router.remove(":id/remove/multiple",multiple("profilePic"),async(req,res)=>{
+router.delete(":id/remove/multiple",multiple("profilePic"),async(req,res)=>{
     try{
       const filePath=req.files.map((file)=>{
           return file.path;
@@ -90,7 +89,7 @@ router.patch("/:id",single("profilePic"),async(req,res)=>{
         return err.message;
     }
 });
-router.remove("/:id/remove",single("profilePic"),async(req,res)=>{
+router.delete("/:id/remove",single("profilePic"),async(req,res)=>{
     try{
        const user=await User.findByIdAndRemove(req.params.id,
            {
