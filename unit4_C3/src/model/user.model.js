@@ -4,11 +4,10 @@ const mongoose=require("mongoose");
 
 const userSchema=new mongoose.Schema(
     {
-        firstName:{type:string , required:true, arguments:[3,30]},
-        lastName:{type:string ,  arguments:[3,30]},
-        age:{type:string , required:true, arguments:[1,150]},
-        age:{type:string , required:true, unique:true},
-        profileImages:[{type:string , required:true}],
+        firstName:{type:String , required:true, arguments:[3,30]},
+        lastName:{type:String ,  arguments:[3,30]},
+        age:{type:String , required:true, arguments:[1,150]},
+        profileImages:[{type:String , required:true}],
        
     },
     {
