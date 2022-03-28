@@ -1,12 +1,12 @@
 const express=require("express");
 
-const {register,login}=require("./controller/authontication");
+const {register,login}=require("./src/controller/authontication");
 
-const userController=require("./controller/user.controller");
+const userController=require("./src/controller/user.controller");
 
-const todoController=require("./controller/todo.controller");
+const todoController=require("./src/controller/todo.controller");
 
-const commentController=require("./controller/comment.controller")
+const commentController=require("./src/controller/comment.controller")
 
 const app=express();
 
