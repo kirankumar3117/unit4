@@ -10,12 +10,12 @@ const app=express();
 
 app.use(express.json());
 
-app.use("/userdetail",usercontrollers);
+app.get("/userdetail",usercontrollers);
 
 app.post("/register",register);
 
 app.post("/login",login);
 
-app.use("/products",productcontroller);
+app.get("/products",productcontroller);
 
 module.exports=app;
